@@ -1,0 +1,9 @@
+name: Run Shell Command
+on:
+  workflow_dispatch:
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a simple shell command
+        run: echo "Hello Security Gurus! This is a simple GitHub Actions workflow."
