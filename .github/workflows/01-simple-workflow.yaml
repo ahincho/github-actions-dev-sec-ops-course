@@ -1,4 +1,4 @@
-name: Run Shell Command
+name: 01 - Run Shell Command
 on:
   workflow_dispatch:
 jobs:
